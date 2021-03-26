@@ -1,0 +1,33 @@
+{
+    "functionid": "funba0431f6",
+    "snippets": {
+        "snf920610c": {
+            "snschema": {},
+            "code": "return \"Hello\"",
+            "SnippetName": "custom",
+            "snippetid": "snf920610c",
+            "sndependency": {}
+        }
+    },
+    "apiid": "apif1516286",
+    "resourceid": "res44156105",
+    "snorder": [
+        "snf920610c"
+    ],
+    "methodtype": "GET",
+    "env_vars": [],
+    "python": {
+        "app": "code/app.py",
+        "requirement": "code/requirement.txt"
+    },
+    "codetype": "python",
+    "datasource": [],
+    "infra": {
+        "volume": "1GB",
+        "cpu": "1",
+        "memory": "512MB"
+    },
+    "deploy": {
+        "platform": "flask-gunicorn"
+    }
+}

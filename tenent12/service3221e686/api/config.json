@@ -1,0 +1,24 @@
+{
+    "apiname": "deploy-test-arav",
+    "apiid": "apif1516286",
+    "userid": "aravind@archeplay.com",
+    "tenantid": "Tenant02",
+    "serviceid": "service3221e686",
+    "productid": "prod1d60b00b",
+    "versions": [
+        {
+            "description": "default version",
+            "resources": [
+                "res44156105"
+            ],
+            "versionid": "v-801609e4",
+            "versionname": "v1"
+        }
+    ],
+    "deploy": {
+        "cloud": "aws",
+        "deployplatform": "eks",
+        "image": "docker",
+        "imagerepo": "ecr"
+    }
+}

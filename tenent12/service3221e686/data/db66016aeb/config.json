@@ -1,0 +1,15 @@
+{
+    "dbtype": "dynamodb",
+    "DBType": "DYNAMODB",
+    "tables": [
+        "tab86cd5210"
+    ],
+    "CreateType": "NEW",
+    "deploy": {
+        "type": "mock"
+    },
+    "dbid": "db66016aeb",
+    "import": {
+        "Ref": "resource['data']['database']['databaseid']"
+    }
+}

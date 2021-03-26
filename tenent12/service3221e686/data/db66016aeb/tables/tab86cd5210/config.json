@@ -1,0 +1,40 @@
+{
+    "tableid": "tab86cd5210",
+    "dynamodb": {
+        "indexes": {
+            "primary": {
+                "key": "tenantid",
+                "sortkey": "userid",
+                "infra": {
+                    "ondemand": true,
+                    "iops": {}
+                }
+            },
+            "secondary": []
+        }
+    },
+    "schema": [
+        {
+            "attributetype": "string",
+            "attributename": "tenantid"
+        },
+        {
+            "attributetype": "string",
+            "attributename": "userid"
+        }
+    ],
+    "resourceid": "res44156105",
+    "tablename": "deploy-test-arav",
+    "dbtype": "dynamodb",
+    "indexes": {
+        "primary": {
+            "key": "tenantid",
+            "sortkey": "userid",
+            "infra": {
+                "ondemand": true,
+                "iops": {}
+            }
+        },
+        "secondary": []
+    }
+}

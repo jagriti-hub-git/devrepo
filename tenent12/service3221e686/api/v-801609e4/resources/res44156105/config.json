@@ -1,0 +1,27 @@
+{
+    "versionid": "v-801609e4",
+    "apiid": "apif1516286",
+    "methods": [
+        {
+            "path": "/",
+            "inputschema": {},
+            "functionid": {
+                "Ref": "funba0431f6"
+            },
+            "outputschema": {},
+            "methodtype": "GET",
+            "methodpath": "/",
+            "methodname": "test",
+            "requirement": "boto3"
+        }
+    ],
+    "resourceid": "res44156105",
+    "data": [],
+    "resourcename": "deploy-test-arav",
+    "deploy": {
+        "cloud": "aws",
+        "deployplatform": "eks",
+        "image": "docker",
+        "imagerepo": "ecr"
+    }
+}
